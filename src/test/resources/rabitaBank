@@ -1,0 +1,21 @@
+0) TEST DATA
+- {
+    {'RU', 'Кешбэк, Рабита Мобайл, Apple Pay, Google Pay, Словарь, Блог, Рабита Бот, Кредитный калькулятор'}
+    {'EN', 'Cashback, Rabita Mobile, Apple Pay, Google Pay, Vocabulary, Blog, Rabita Bot, Loan calculator'}
+  }
+1) Заголовок
+Текст testdata[1] должен быть в разделе сайта в версии языка testdata[0]
+
+2) Критичность
+BLOCKER
+
+3) (optional) Предусловия
+Открыт браузер Firefox
+
+4) Шаги
+- Выбрать язык testdata[0]
+- Нажать "Click"
+- Раскрыть меню сайта
+
+5) Ожидаемый результат
+- Текст testdata[1] должен быть в меню сайта
